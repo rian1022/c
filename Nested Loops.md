@@ -38,3 +38,44 @@ int main(void) {
   return 0;
 }
 ```
+
+*숫자찍기
+```c
+#include <stdio.h>
+
+int main(void) {
+  int n;
+  scanf("%d", &n);
+  int i;
+  int j;
+  for (i = 1; i <= n; i++) {
+    for (j = 1; j <= i; j++) {
+      printf("%d ", j);
+    }
+    printf("\n");
+  }
+  printf("\n");
+  for (i = n; i >= 1; i--) {
+    for (j = 1; j <= i; j++) {
+      printf("%d ", j);
+    }
+    printf("\n");
+  }
+  printf("\n");
+  for (i = 1; i <= n; i++) {
+    for (j = n; j >= i; j--) {
+      printf("%d ", j);
+    }
+    printf("\n");
+  }
+  printf("\n");
+  for (i = n; i >= 1; i--) {
+    for (j = n; j >= i; j--) {
+      printf("%d ", j);
+    }
+    printf("\n");
+  }
+  printf("\n");
+  return 0;
+}
+```
