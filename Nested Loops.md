@@ -14,3 +14,27 @@ int main(void) {
   return 0;
 }
 ```
+
+*별찍기
+```c
+#include <stdio.h>
+
+int main(void) {
+  int n;
+  scanf("%d", &n);
+  int b = n;
+  int i;
+  int j;
+  for (i = 1; i <= n; i++) {
+    for(int m = b + 1; m <= n; m++){
+      printf(" ");
+    }
+    for (j = n; j >= i; j--) {
+      printf("*");
+    }
+    printf("\n");
+    b--;
+  }
+  return 0;
+}
+```
