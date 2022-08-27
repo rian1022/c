@@ -79,3 +79,27 @@ int main(void) {
   return 0;
 }
 ```
+
+*별찍기2
+```c
+#include <stdio.h>
+
+int main(void) {
+  int n;
+  scanf("%d", &n);
+  int b = n;
+  int i;
+  int j;
+  for (i = 1; i <= n; i++) {
+    for (int m = b - 1; m > 0; m--) {
+      printf(" ");
+    }
+    for (j = 1; j <= i; j++) {
+      printf("*");
+    }
+    printf("\n");
+    b--;
+  }
+  return 0;
+}
+```
