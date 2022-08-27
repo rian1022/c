@@ -1,7 +1,7 @@
 #중첩반복문
 
 *1, 2, 3, 4, 5를 5줄 출력하는 프로그램
-'''c
+```c
 #include <stdio.h>
 
 int main(void) {
@@ -13,4 +13,4 @@ int main(void) {
   }
   return 0;
 }
-'''
+```
