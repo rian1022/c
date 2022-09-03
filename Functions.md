@@ -1,4 +1,4 @@
-#함수
+#함수  
 *매개변수x, 반환x
 ```c
 #include <stdio.h>
