@@ -75,3 +75,22 @@ int main(void) {
   return 0;
 }
 ```
+*약수출력
+```c
+#include <stdio.h>
+
+void Divistor(int n) {
+  for (int i = 1; i <= n; i++) {
+    if (n % i == 0) {
+      printf("%d ", i);
+    }
+  }
+}
+
+int main(void) {
+  int a;
+  scanf("%d", &a);
+  Divistor(a);
+  return 0;
+}
+```
